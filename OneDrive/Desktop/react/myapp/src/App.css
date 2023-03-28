@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+ *{
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  ;
+ }
+
+/* Header  */
+
+.nav{
+
+  background-color: #F6F1F1;
+   
+  color:  #146C94;
+  padding: 20px 20px;
+  text-align: center;
+ 
+  
+   
+  
+}
+
+.nav h3{
+
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  box-sizing: border-box;
+ font-weight: 700;
+}
+.navD{
+
+  
+  background-color: #f0b3b3;
+   
+  color:  #146C94;
+  padding: 20px 20px;
+  text-align: center;
+ 
+
+}
+.navD> a{
+
+  text-decoration: none;
+  color: #000;
+  margin: 15px;
+}
+
+ /* Content  */
+
+  .content{
+
+    background-color: #7cd0ee;
+    width: 60%;
+     
+    margin: auto;
+    min-height: 100vh;
+  padding-bottom: 10px;
+   
+    box-sizing: border-box;
+
+   
+     
+
+  }
+  .content>h1{
+
+    text-align: center;
+    font-family:cursive;
+    padding: 80px 0 40px 0;
+
+    
+  
+  }
+  .content > form{
+
+    display: flex;
+     flex-direction: column;
+     padding: 15px 100px;
+ 
+
+
+
+  }
+  
+  input,textarea,button{
+
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.355);
+    border-radius: 8px;
+    margin: 10px;
+
+    font-size: 1.2rem;
+  }
+  button{
+
+    border: none;
+     
+    background-color: #64bcd4d4;
+    color: white;
+    /* font-family:'Times New Roman', Times, serif; */
+    box-shadow: 
+    inset 0px 11px 10px -11px #0000005d,
+    inset 0px -12px 18px -11px #0000005c;
+    cursor: pointer;
+
+  }
+  button:hover{
+
+    background-color: #1b81b1a1;
+  }
+
+  /* Task  */
+  
+
+  .task{
+
+    width: 75%;
+    display: flex;
+    margin-left: 110px;
+    background-color: #F6F1F1;
+    border-radius: 15px;
+    font-size: 1rem;
+    padding: 40px 0;
+    margin-bottom: 10px;
+
+  }
+
+  .task >div{
+ 
+    width: 80%;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    
+  
+  }
+  
+  .task >div span{
+
+    color: rgba(0, 0, 0, 0.534);
+    
+  }
+  .task > button{
+
+    /* border-radius: 100%; */
+    width: 60px;
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e61b1b;
+    box-shadow: none;
+    margin-left: 70px;
+    margin-right: 20px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    
+  }
+  .task > button:hover{
+
+   filter: brightness(300%);
+   
+  }
+
+  .task > button:active{
+
+    transform: translateY(-7px);
+  }
